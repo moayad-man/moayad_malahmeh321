@@ -1,0 +1,152 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.header1{
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: 1;
+}
+h3,h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 2;
+}
+#head1{
+    display: flex;
+    margin-left: 50px;
+}
+nav{
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+button{
+background: none;
+color: aliceblue;
+border: none;
+cursor: pointer;
+justify-content: space-around;
+}
+button:hover{
+background-color: aliceblue;
+color: black;
+border-radius: 5px;}
+#body1
+{
+    margin-top: 200px;
+    text-align: center;
+    
+}
+h1{
+    color: white;
+}
+#img1{
+    margin-left: 30px;
+    width: 80px;
+    height: 70px;
+    margin-top: 30px;
+    border-radius: 300px;
+}
+#butt1{
+    background-color: rgb(62, 98, 231); 
+    border-radius: 5px;
+     width: 200px; 
+     height: 40px;
+     color: rgb(255, 255, 255);
+     margin: 30px;
+}
+.level2{
+    margin-top: 850px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 15px;
+    margin-bottom: 150px;
+}
+.level12{
+    display: flex;
+    width:100px ;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+img{
+    margin: 10px;
+}
+.level3
+{
+    text-align: center;
+    padding-left:105px ;
+    padding-right: 105px;
+    /* margin-bottom: 150px; */
+    background-color: rgb(234, 234, 234);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.subdiv{
+    text-align: center;
+    width: 200px;
+    margin-left: 170px;
+    margin-right: 20px;
+}
+h3{
+    color: black;
+}
+.level4{
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.form{
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+}
+#butt2{
+    background-color: rgb(62, 98, 231); 
+    border-radius: 5px;
+     width: 200px; 
+     height: 40px;
+     color: rgb(255, 255, 255);
+     margin: 30px;
+}
+input{
+    width: 500px; 
+    height: 35px;
+    margin-left: 300px;
+
+}
+footer{
+    width: 100%;
+    background-color: rgb(70, 70, 72);
+    height: 100px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+a{
+    color: rgb(70, 70, 202);
+}
